@@ -73,6 +73,7 @@ class HomePage extends StatelessWidget {
             ],
           ),
           const TrendingCountryWidget(),
+          20.verticalSpace,
         ],
       ),
     );

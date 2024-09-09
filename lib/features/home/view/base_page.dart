@@ -28,7 +28,7 @@ class _BasePageState extends State<BasePage> {
     return AutoTabsScaffold(
       routes: const [
         HomeRoute(),
-        HomeRoute(),
+        ShareRoute(),
         HomeRoute(),
         HomeRoute(),
       ],

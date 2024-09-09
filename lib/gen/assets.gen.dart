@@ -42,6 +42,9 @@ class $AssetsIconsGen {
   /// File path: assets/icons/notification.svg
   String get notification => 'assets/icons/notification.svg';
 
+  /// File path: assets/icons/option.svg
+  String get option => 'assets/icons/option.svg';
+
   /// File path: assets/icons/partner_travel.svg
   String get partnerTravel => 'assets/icons/partner_travel.svg';
 
@@ -72,6 +75,7 @@ class $AssetsIconsGen {
         hotels,
         location,
         notification,
+        option,
         partnerTravel,
         promotion,
         rental,
