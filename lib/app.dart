@@ -27,9 +27,6 @@ class _TravelAppState extends State<TravelApp> {
           child: MaterialApp.router(
             title: "Travel App",
             debugShowCheckedModeBanner: false,
-            localizationsDelegates: context.localizationDelegates,
-            supportedLocales: context.supportedLocales,
-            locale: context.locale,
             routerConfig: router.config(),
             theme: AppTheme.light,
             themeMode: ThemeMode.light,
