@@ -9,10 +9,19 @@ import 'package:injectable/injectable.dart';
 import 'package:travel_app/services/router/router.gr.dart';
 
 @AutoRouterConfig(replaceInRouteName: 'Page,Route')
-
 class AppRouter extends $AppRouter {
   @override
   List<AutoRoute> get routes => [
-       CustomRoute(page: HomeRoute.page, initial: true),
+        AutoRoute(
+          initial: true,
+          page: BaseRoute.page,
+          children: [
+            AutoRoute(page: HomeRoute.page),
+            AutoRoute(page: HomeRoute.page),
+            AutoRoute(page: HomeRoute.page),
+            AutoRoute(page: HomeRoute.page),
+          ],
+        ),
+        CustomRoute(page: HomeRoute.page),
       ];
 }

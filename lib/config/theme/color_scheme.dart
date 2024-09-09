@@ -2,7 +2,6 @@
 import 'package:flutter/material.dart';
 
 class AppColorScheme {
-
   static const light = ColorScheme.light(
     primary: Color(0xFFE7536D),
     onPrimary: Color(0xFFFDFFFA),
@@ -17,7 +16,7 @@ class AppColorScheme {
     onTertiary: Color(0xFFFFFFFF),
     errorContainer: Color(0xFFFFEDE8),
     onErrorContainer: Color(0xFF87361D),
-    surface: Color.fromARGB(255, 255, 255, 255),
+    surface: Color.fromARGB(255, 234, 238, 240),
     onSurface: Color(0xFF34313C),
     surfaceContainerHighest: Color(0xFFDEDDE1),
     onSurfaceVariant: Color(0xFF534F5C),
@@ -64,7 +63,7 @@ extension TextColorScheme on ColorScheme {
 
 extension ExtraColors on ColorScheme {
   Color get gray => brightness == Brightness.light
-      ? const Color(0xfff1f1f1)
+      ? const Color.fromARGB(255, 152, 152, 152)
       : const Color(0xfff1f1f1);
 
   Color get iconGray => brightness == Brightness.light
