@@ -22,6 +22,7 @@ class AppRouter extends $AppRouter {
             AutoRoute(page: HomeRoute.page),
           ],
         ),
-        CustomRoute(page: HomeRoute.page),
+        AutoRoute(page: HomeRoute.page),
+        AutoRoute(page: SearchRoute.page)
       ];
 }

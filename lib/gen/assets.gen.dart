@@ -60,6 +60,9 @@ class $AssetsIconsGen {
   /// File path: assets/icons/share.svg
   String get share => 'assets/icons/share.svg';
 
+  /// File path: assets/icons/star.svg
+  String get star => 'assets/icons/star.svg';
+
   /// File path: assets/icons/user.svg
   String get user => 'assets/icons/user.svg';
 
@@ -81,6 +84,7 @@ class $AssetsIconsGen {
         rental,
         send,
         share,
+        star,
         user
       ];
 }

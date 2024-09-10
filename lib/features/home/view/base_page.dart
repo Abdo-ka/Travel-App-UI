@@ -33,7 +33,9 @@ class _BasePageState extends State<BasePage> {
         HomeRoute(),
       ],
       floatingActionButton: FloatingActionButton(
-        onPressed: () {},
+        onPressed: () {
+          context.router.push(const SearchRoute());
+        },
         shape: const CircleBorder(),
         backgroundColor: context.colorScheme.primary,
         child: Icon(Icons.add, color: context.colorScheme.onPrimary),

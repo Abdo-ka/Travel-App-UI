@@ -4,7 +4,6 @@ import 'package:flutter/material.dart';
 
 // 🌎 Project imports:
 
-
 class ButtonWidget extends StatelessWidget {
   static Color surfaceContainer(BuildContext context) =>
       context.isDark ? const Color(0xff1D2021) : const Color(0xffECEEEF);
@@ -71,7 +70,7 @@ class ButtonWidget extends StatelessWidget {
         padding: padding ?? EdgeInsets.zero,
         shape: isCircle == true
             ? const StadiumBorder()
-            : ContinuousRectangleBorder(
+            : RoundedRectangleBorder(
                 borderRadius: BorderRadius.circular(radius ?? 36),
                 side: BorderSide(
                   color: isOutlined
