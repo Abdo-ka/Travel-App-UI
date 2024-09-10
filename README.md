@@ -1,16 +1,48 @@
-# travel_app
 
-A new Flutter project.
+# Travel App
 
-## Getting Started
+this is just UI for simple Travel app 
+ 
+## Run Locally
 
-This project is a starting point for a Flutter application.
+Clone the project
 
-A few resources to get you started if this is your first Flutter project:
+```bash
+  git clone https://github.com/Abdo-ka/Travel-App-UI.git
+```
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Go to the project directory
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```bash
+  cd travel_app
+```
+
+Install dependencies 
+
+```bash 
+  flutter pub get
+```
+
+Install dependencies on packages 
+
+```bash 
+  cd packages
+  flutter pub get 
+```
+## Build Application
+
+release version
+```bash
+flutter build apk --release
+```
+
+
+## Support
+
+For support, [Email](mailto:kanawatiabdalrahman@gmail.com) or chat me on [telegram](https://t.me/Abdo_Ka),[LinkedIn](https://www.linkedin.com/in/abdo-ka) .
+
+
+## Feedback
+
+If you have any feedback, please reach out to us at [Email](mailto:kanawatiabdalrahman@gmail.com)
+
